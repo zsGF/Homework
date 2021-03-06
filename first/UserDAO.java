@@ -1,4 +1,3 @@
-package com.flyingdigital.ds1;
 
 public class UserDAO {
 	private DBUtil dbu;
@@ -10,17 +9,17 @@ public class UserDAO {
 	public boolean findUser(String userName,String userPasswd) {
 		if(userName == "" || userName==null)
 		{
-			System.out.println("ÓÃ»§Ãû²»´æÔÚ");
+			System.out.println("ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 			return false;
 		}
 		
-//		´Ë´¦A£¬B ÎªÊı¾İ¿â²éÕÒµ½µÄÓÃ»§ÃûÃÜÂë
+//		ï¿½Ë´ï¿½Aï¿½ï¿½B Îªï¿½ï¿½ï¿½İ¿ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		if(userName=="A" && userPasswd=="B") {
-			System.out.println("ÓÃ»§ÃûÃÜÂëÆ¥Åä");
+			System.out.println("ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½");
 			return true;
 		}
 		else {
-			System.out.println("ÓÃ»§Ãû»òÃÜÂë´íÎó");
+			System.out.println("ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 			return false;
 		}
 	}

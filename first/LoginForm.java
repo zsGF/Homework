@@ -1,4 +1,3 @@
-package com.flyingdigital.ds1;
 
 public class LoginForm {
 	private UserDAO dao;
@@ -13,19 +12,19 @@ public class LoginForm {
 	}
 	
 	public void init() {
-		System.out.println("³õÊ¼»¯µÇÂ¼¿Ø¼þ³É¹¦");
+		System.out.println("ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Â¼ï¿½Ø¼ï¿½ï¿½É¹ï¿½");
 	}
 	
 	public void display() {
-		System.out.println("³É¹¦Ôö¼Ó¿Ø¼þ²¢ÏÔÊ¾");
+		System.out.println("ï¿½É¹ï¿½ï¿½ï¿½ï¿½Ó¿Ø¼ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾");
 	}
 	
 	public void validate() {
 		if(this.dao.findUser(userName, userPasswd)) {
-			System.out.println("ÓÃ»§³É¹¦µÇÂ¼");
+			System.out.println("ï¿½Ã»ï¿½ï¿½É¹ï¿½ï¿½ï¿½Â¼");
 		}
 		else {
-			System.out.println("ÓÃ»§µÇÂ¼Ê§°Ü");
+			System.out.println("ï¿½Ã»ï¿½ï¿½ï¿½Â¼Ê§ï¿½ï¿½");
 		}
 	}
 

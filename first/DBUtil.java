@@ -1,5 +1,3 @@
-package com.flyingdigital.ds1;
-
 
 public class DBUtil {
 	private String dbName;
@@ -10,7 +8,7 @@ public class DBUtil {
 	}
 	
 	public void getConnection(String dbName) {
-		System.out.println("Êý¾Ý¿â: " + dbName +  "  ÒÑÁ¬½Ó");
+		System.out.println("ï¿½ï¿½ï¿½Ý¿ï¿½: " + dbName +  "  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	}
 
 	public String getDbName() {

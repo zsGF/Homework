@@ -1,4 +1,3 @@
-package com.flyingdigital.ds1;
 
 public class Test {
 
@@ -8,7 +7,7 @@ public class Test {
 		UserDAO dao = new UserDAO(dbu);
 		LoginForm form = new LoginForm(dao);
 		
-//		¼ÙÉè»ñÈ¡µ½µÄÓÃ»§ÃûÃÜÂëÎª A B
+//		ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª A B
 		String userName = "A";
 		String userPasswd = "B";
 		form.setUserName(userName);
